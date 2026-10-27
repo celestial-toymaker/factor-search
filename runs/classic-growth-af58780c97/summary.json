@@ -1,0 +1,241 @@
+{
+  "name": "经典成长因子 · 10亿100只",
+  "strategy": "classic_growth",
+  "start": "2025-01-02",
+  "end": "2026-09-30",
+  "trading_days": 424,
+  "initial_cash": "1000000000.00",
+  "ending_nav": "1377213688.46",
+  "net_profit": "377213688.46",
+  "return": 0.3772136884599999,
+  "annual_return": 0.20952263005403604,
+  "max_drawdown": 0.1340102157994798,
+  "sharpe": 1.1983742344177317,
+  "average_exposure": 0.6510893263486633,
+  "ending_exposure": 0.4617370973716324,
+  "target_exposure": 0.95,
+  "ending_cash": "741303037.49",
+  "ending_market_value": "635910650.97",
+  "ending_positions": 89,
+  "ending_receivables": "0",
+  "ending_pending_equity": "0",
+  "ending_liabilities": "0",
+  "stale_value": "0",
+  "first_trade_date": "2025-01-02",
+  "trade_count": 9164,
+  "order_count": 19691,
+  "total_costs": "8110966.48",
+  "costs": {
+    "commission": "951061.69",
+    "slippage": "4751679.20",
+    "stamp_tax": "2313192.02",
+    "transfer": "95033.57"
+  },
+  "turnover_notional": "9503350670.89",
+  "expired_orders": 16702,
+  "capacity_constrained_orders": 10257,
+  "capacity_constrained_notional": "28420840037.36",
+  "exit_mode": "strict_end",
+  "exit_label": "末日按规则退出",
+  "exit_planning": {
+    "basis": "daily_rules",
+    "uses_future_market_data": false,
+    "scope": "当前时点规则",
+    "information_boundary": "策略因子、选股与策略回调按当前可获知时间截断；日常撮合按该次开盘规则执行",
+    "completed": false,
+    "disclosure": "按逐日可获知信息执行所选末日规则。"
+  },
+  "terminal_assumptions": [],
+  "pending_rights": {},
+  "receivables": {},
+  "liabilities": {},
+  "accounting_mode": "total_return",
+  "status_coverage": {
+    "required_stock_days": 2155920,
+    "covered_stock_days": 2155920,
+    "unknown_stock_days": 0,
+    "unknown_examples": [],
+    "st_stock_days": 64273,
+    "source_fingerprint": "836ff2bb30f416ea1d05277ced05819dd565629f3d6f3ea0ca223c84a97405a4",
+    "availability_basis": "逐日风险状态按当日开盘前生效推定；有明确时间的覆盖事件按其可获知时间执行"
+  },
+  "compute": {
+    "device": "mps",
+    "device_name": "Apple M3 Pro",
+    "torch": "2.5.1",
+    "cuda": null,
+    "dtype": "float32",
+    "block_days": 128,
+    "windows": [
+      5,
+      10,
+      14,
+      20,
+      60
+    ],
+    "cache_key": "0317233ed358475456eaaab8f2db2a89e5e50678d3805b741b1a6974609aa2d1",
+    "cache_hit": true,
+    "seconds": 2.29,
+    "classic_factors": {
+      "fingerprint": "c9fcca54ebea52cada61d719a6b4e328f5bbd4fcb96892a445afac09db4b436a",
+      "source_fingerprint": "2c41ea046d9d134d03b5e02836e74cb006dd3e9e322973be86c2c12174d34ad6",
+      "cache": "data/classic_factors/features/c9fcca54ebea52cada61d719a6b4e328f5bbd4fcb96892a445afac09db4b436a.npz",
+      "cache_sha256": "6124557eef2aad1d85d2b4632a66ae0da8527a6e9ee1462f861a7560f9711f06",
+      "device": "mps"
+    }
+  },
+  "created_at": "2026-10-27T12:14:15.120691+09:00",
+  "warmup": {
+    "first": "2023-01-01",
+    "last_decision": "2024-12-31"
+  },
+  "research_assumptions": [
+    "当日累计复权因子推定为开盘前生效，使用总收益等价单位；原始价格用于成交和费用。",
+    "完整日线的当日成交额用于开盘记录有效性核验；高低收价格用于收盘诊断。",
+    "BaoStock 逐日 ST 状态推定在当日开盘前可知；带明确可获知时间的覆盖事件按其时间执行。",
+    "价格边界为历史规则与复权参考价推算的候选，首次观测与业务上市事实分别记录。",
+    "容量仅使用决策日已知成交额；日频开盘成交采用方向性封板规则，盘口排队由更细数据扩展。"
+  ],
+  "metric_definitions": {
+    "return": "按基金份额法剔除入出金影响的区间收益",
+    "annual_return": "以每年 252 个交易日折算",
+    "max_drawdown": "从此前最高单位净值到随后低点的最大跌幅",
+    "sharpe": "日收益均值除以日收益标准差后年化；无风险利率取零",
+    "net_profit": "终点净资产减初始资金和净入金",
+    "exposure": "股票市值除以净资产；待结算权益单列",
+    "capacity_constrained_notional": "因共享容量到期的委托余量按该次开盘价折算，跨日累计并包含重复尝试，买卖双向合计"
+  },
+  "run_id": "classic-growth-af58780c97",
+  "input_fingerprint": "343d1e94eec2c4e7619fec08695705e022a9a590a8871ef4007fdd0561fd2f49",
+  "status_fingerprint": "836ff2bb30f416ea1d05277ced05819dd565629f3d6f3ea0ca223c84a97405a4",
+  "config": {
+    "name": "经典成长因子 · 10亿100只",
+    "data_dir": "feathers",
+    "status_dir": "data/status",
+    "output_dir": "runs",
+    "start": "2025-01-02",
+    "end": "2026-09-30",
+    "warmup_start": "2023-01-01",
+    "initial_cash": "1000000000.00",
+    "device": "mps",
+    "block_days": 128,
+    "accounting_mode": "total_return",
+    "exit_mode": "strict_end",
+    "strategy": "classic_growth",
+    "rebalance_days": 5,
+    "max_positions": 100,
+    "target_exposure": "0.95",
+    "min_history": 60,
+    "min_adv20": "20000000",
+    "participation": "0.01",
+    "commission_rate": "0.0001",
+    "min_commission": "5.00",
+    "stamp_tax_rate": "0.0005",
+    "slippage_rate": "0.0005",
+    "auto_sync_status": false,
+    "strict_status": true,
+    "events_file": null,
+    "status_file": null,
+    "benchmark": false,
+    "parameters": {
+      "allocation": "equal",
+      "data_standard": "conservative_exploratory",
+      "financial_start": "2021-01-01",
+      "source_workers": 4,
+      "factor_cache": "data/classic_factors/features/c9fcca54ebea52cada61d719a6b4e328f5bbd4fcb96892a445afac09db4b436a.npz",
+      "factor_cache_sha256": "6124557eef2aad1d85d2b4632a66ae0da8527a6e9ee1462f861a7560f9711f06",
+      "factor_fingerprint": "c9fcca54ebea52cada61d719a6b4e328f5bbd4fcb96892a445afac09db4b436a"
+    }
+  },
+  "rule_sources": [
+    {
+      "subject": "2025 年交易日历",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/c/c_20241223_10767110.shtml"
+    },
+    {
+      "subject": "2026 年国庆休市",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml"
+    },
+    {
+      "subject": "2026-07-06 主板风险警示涨跌幅调整",
+      "url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20260424_10816474.shtml"
+    },
+    {
+      "subject": "证券交易印花税减半",
+      "url": "https://shanxi.chinatax.gov.cn/web/detail/sx-11400-545-1780448"
+    },
+    {
+      "subject": "零股卖出规则",
+      "url": "https://www.sse.com.cn/lawandrules/guide/stock/jyglywznylc/tz/c/c_20230209_5716007.shtml"
+    },
+    {
+      "subject": "上交所股票投资费用说明与过户费",
+      "url": "https://one.sse.com.cn/onething/gptz/"
+    },
+    {
+      "subject": "中国结算历史收费调整记录",
+      "url": "https://m.chinaclear.cn/zdjs/dsj/about_dsj.shtml"
+    }
+  ],
+  "filter_reasons": {
+    "0": "合格候选",
+    "1": "证券类型",
+    "2": "行情待观测或异常",
+    "3": "有效历史不足",
+    "4": "ST 状态待核实",
+    "5": "ST / *ST 风险警示",
+    "6": "成交额有效性",
+    "7": "流动性门槛",
+    "8": "策略因子准备",
+    "9": "已生效状态限制"
+  },
+  "schema_version": 1,
+  "annual_volatility": 0.1711609354681003,
+  "calmar": 1.5634825211202246,
+  "positive_daily_fraction": 0.5825471698113207,
+  "rank_ic_mean": 0.0036659308218537,
+  "rank_ic_std": 0.0885246425232958,
+  "icir": 0.0414114162719042,
+  "positive_ic_fraction": 0.5178997613365155,
+  "ic_days": 419.0,
+  "rebalance_ic_mean": 0.0042250008250231,
+  "rebalance_ic_days": 84.0,
+  "factor": "growth",
+  "factor_name": "成长",
+  "annual_one_way_turnover": 2.2596157294908985,
+  "q5_return": 0.4615401722080268,
+  "q1_return": 0.37271236857417533,
+  "q5_q1_return_difference": 0.08882780363385145,
+  "benchmark_return": 0.3881630312540889,
+  "excess_return_difference": -0.01094934279408899,
+  "performance_status": "有效成交",
+  "factor_definition": {
+    "id": "growth",
+    "name": "成长",
+    "formula": "营业收入 TTM / 上年同期营业收入 TTM - 1",
+    "direction": "高"
+  },
+  "actual_exit": {
+    "terminal_trigger_dates": [
+      "2026-09-29"
+    ],
+    "terminal_actual_sell_date": "2026-09-30",
+    "terminal_planned_securities": 100,
+    "terminal_sold_securities": 100,
+    "terminal_gross_proceeds": "285464792.38",
+    "terminal_sale_fees": "316866.05",
+    "terminal_net_proceeds": "285147926.33",
+    "terminal_cleared_securities": 11,
+    "remaining_securities": 89,
+    "remaining_market_value": "635910650.97",
+    "earlier_planned_securities": 4,
+    "earlier_cleared_securities": 4,
+    "remaining_reasons": [
+      {
+        "reason": "共享成交容量不足或低于合法数量",
+        "securities": 89
+      }
+    ],
+    "basis": "按规则计划退出的真实成交；逐日快照按证券保留最后退出状态"
+  }
+}

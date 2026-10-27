@@ -1,0 +1,20 @@
+{
+  "financial_records": 230710,
+  "rejected_financial_records": 0,
+  "financial_records_updated_after_notice": 124539,
+  "financial_records_known_after_end": 3352,
+  "dividends": {
+    "complete": true,
+    "events": 13198,
+    "invalid_events": 77,
+    "cash_unit": "PRETAX_BONUS_RMB 为每 10 股元，TOTAL_SHARES 为股"
+  },
+  "source_errors": [],
+  "price_alignment": {
+    "observations": 2192975,
+    "differences_over_1_percent": 0,
+    "median_relative_difference": 0.0
+  },
+  "version_policy": "max(报告期, 公告日期, 更新日期) 日末之后可用；按报告期保留当时最新版本",
+  "standard": "保守的探索性评估；源更新时间近似历史版本可用时间"
+}

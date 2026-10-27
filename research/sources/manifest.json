@@ -1,0 +1,332 @@
+[
+  {
+    "framework": "rqalpha",
+    "repo": "ricequant/rqalpha",
+    "commit": "284b78a1975bd2d6c4bee8fde35586e6846bfd96",
+    "path": "rqalpha/core/events.py",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/284b78a1975bd2d6c4bee8fde35586e6846bfd96/rqalpha/core/events.py",
+    "local": "research/sources/rqalpha/rqalpha/core/events.py",
+    "sha256": "182b35e475a1f3ddbbc142dc94e0a9b92e87427e51b524283e5e100ceed89796",
+    "bytes": 6795
+  },
+  {
+    "framework": "rqalpha",
+    "repo": "ricequant/rqalpha",
+    "commit": "284b78a1975bd2d6c4bee8fde35586e6846bfd96",
+    "path": "rqalpha/portfolio/account.py",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/284b78a1975bd2d6c4bee8fde35586e6846bfd96/rqalpha/portfolio/account.py",
+    "local": "research/sources/rqalpha/rqalpha/portfolio/account.py",
+    "sha256": "2fad152b46ccb448b12df6ec56595ca9869c8090128a637c2cd56daa417568f7",
+    "bytes": 24742
+  },
+  {
+    "framework": "rqalpha",
+    "repo": "ricequant/rqalpha",
+    "commit": "284b78a1975bd2d6c4bee8fde35586e6846bfd96",
+    "path": "rqalpha/model/order.py",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/284b78a1975bd2d6c4bee8fde35586e6846bfd96/rqalpha/model/order.py",
+    "local": "research/sources/rqalpha/rqalpha/model/order.py",
+    "sha256": "bc454e75427b597130bd109dc46d4615af4a1f5f448f0ed50b18fb01a384a781",
+    "bytes": 14711
+  },
+  {
+    "framework": "rqalpha",
+    "repo": "ricequant/rqalpha",
+    "commit": "284b78a1975bd2d6c4bee8fde35586e6846bfd96",
+    "path": "rqalpha/portfolio/position.py",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/284b78a1975bd2d6c4bee8fde35586e6846bfd96/rqalpha/portfolio/position.py",
+    "local": "research/sources/rqalpha/rqalpha/portfolio/position.py",
+    "sha256": "7d787df643ac78f12e241b4bd535ae248320a946346a3acc95d783141b7d7d7f",
+    "bytes": 21230
+  },
+  {
+    "framework": "rqalpha",
+    "repo": "ricequant/rqalpha",
+    "commit": "284b78a1975bd2d6c4bee8fde35586e6846bfd96",
+    "path": "rqalpha/mod/rqalpha_mod_sys_accounts/position_model.py",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/284b78a1975bd2d6c4bee8fde35586e6846bfd96/rqalpha/mod/rqalpha_mod_sys_accounts/position_model.py",
+    "local": "research/sources/rqalpha/rqalpha/mod/rqalpha_mod_sys_accounts/position_model.py",
+    "sha256": "cabacd2ed90aab0f1bbac190f7f3c0933c8df48af0162be5fb930bbd5dce1803",
+    "bytes": 30523
+  },
+  {
+    "framework": "rqalpha",
+    "repo": "ricequant/rqalpha",
+    "commit": "284b78a1975bd2d6c4bee8fde35586e6846bfd96",
+    "path": "rqalpha/mod/rqalpha_mod_sys_transaction_cost/deciders.py",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/284b78a1975bd2d6c4bee8fde35586e6846bfd96/rqalpha/mod/rqalpha_mod_sys_transaction_cost/deciders.py",
+    "local": "research/sources/rqalpha/rqalpha/mod/rqalpha_mod_sys_transaction_cost/deciders.py",
+    "sha256": "9c047a6f4cadec5ddc1ac0f47931c3f671cbed883ef29d53f1389eee4d0053a9",
+    "bytes": 9894
+  },
+  {
+    "framework": "rqalpha",
+    "repo": "ricequant/rqalpha",
+    "commit": "284b78a1975bd2d6c4bee8fde35586e6846bfd96",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/ricequant/rqalpha/284b78a1975bd2d6c4bee8fde35586e6846bfd96/LICENSE",
+    "local": "research/sources/rqalpha/LICENSE",
+    "sha256": "0150898c38f6e95b1012b905eafedf580a93974963c9f77f7bfc712b78e64ff2",
+    "bytes": 1444
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Interfaces/IAlgorithm.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Interfaces/IAlgorithm.cs",
+    "local": "research/sources/lean/Common/Interfaces/IAlgorithm.cs",
+    "sha256": "b3c28f506942b7be055a4d119c24a7b1e0094dd4f777135046f825968f36dd4b",
+    "bytes": 38788
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Global.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Global.cs",
+    "local": "research/sources/lean/Common/Global.cs",
+    "sha256": "a35c2340248f5886fd9ce3eb0813fd754cbef7c010961ebcf3be719acffc3f14",
+    "bytes": 40372
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Orders/OrderTypes.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Orders/OrderTypes.cs",
+    "local": "research/sources/lean/Common/Orders/OrderTypes.cs",
+    "sha256": "2f1b64811bfe057bdd73c9516099f947af2b9fe6fa33879c206f119d108b5902",
+    "bytes": 5087
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Data/Market/Dividend.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Data/Market/Dividend.cs",
+    "local": "research/sources/lean/Common/Data/Market/Dividend.cs",
+    "sha256": "20c970cf46ddee47c463b5222076fbc374e4840e8afd6e9acabaf80cb81dec6a",
+    "bytes": 6629
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Data/Market/Split.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Data/Market/Split.cs",
+    "local": "research/sources/lean/Common/Data/Market/Split.cs",
+    "sha256": "086cbcb3d9bd1b04d1cc4819eefb813e188a146267502d1d316f98a4140139a3",
+    "bytes": 5279
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Data/Market/Delisting.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Data/Market/Delisting.cs",
+    "local": "research/sources/lean/Common/Data/Market/Delisting.cs",
+    "sha256": "73e225f5b746aee0020ef8c8d8264d0c5119d57d0b412bdf3ad60519c3b43350",
+    "bytes": 4920
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Data/Market/SymbolChangedEvent.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Data/Market/SymbolChangedEvent.cs",
+    "local": "research/sources/lean/Common/Data/Market/SymbolChangedEvent.cs",
+    "sha256": "b3f430679b38059c8a8338447fdb349d7732eaa1e2bc3ba8becca91db7573219",
+    "bytes": 3587
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Securities/SecurityPortfolioManager.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Securities/SecurityPortfolioManager.cs",
+    "local": "research/sources/lean/Common/Securities/SecurityPortfolioManager.cs",
+    "sha256": "a38ddb51a0d7a2b60cff663e74912e0bebb302a09c44bf6bd295980fce26a2bb",
+    "bytes": 43334
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Common/Interfaces/IBrokerage.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Common/Interfaces/IBrokerage.cs",
+    "local": "research/sources/lean/Common/Interfaces/IBrokerage.cs",
+    "sha256": "5a3d77da38375967c1e9c368dfd53df2338919208055f18283ba2b7aed7788b9",
+    "bytes": 6154
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "Engine/AlgorithmManager.cs",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/Engine/AlgorithmManager.cs",
+    "local": "research/sources/lean/Engine/AlgorithmManager.cs",
+    "sha256": "c20e267cbd2a58b829587b7182966c5edf90a093ce98ac45dab64562adc2440f",
+    "bytes": 51724
+  },
+  {
+    "framework": "lean",
+    "repo": "QuantConnect/Lean",
+    "commit": "a54e9cc6cee9030e865d4f401c03c0e2373ba199",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/QuantConnect/Lean/a54e9cc6cee9030e865d4f401c03c0e2373ba199/LICENSE",
+    "local": "research/sources/lean/LICENSE",
+    "sha256": "522cf0a716ce03f67d46f8fceb5bf78c5b84400ec5cd8d14bf9f02cddc1cb6ba",
+    "bytes": 10737
+  },
+  {
+    "framework": "zipline",
+    "repo": "quantopian/zipline",
+    "commit": "014f1fc339dc8b7671d29be2d85ce57d3daec343",
+    "path": "zipline/protocol.py",
+    "url": "https://raw.githubusercontent.com/quantopian/zipline/014f1fc339dc8b7671d29be2d85ce57d3daec343/zipline/protocol.py",
+    "local": "research/sources/zipline/zipline/protocol.py",
+    "sha256": "dc15709af8e70772efd6701b378476aa2d9431c7bb7f6ddc5a194cca13a8fd30",
+    "bytes": 11967
+  },
+  {
+    "framework": "zipline",
+    "repo": "quantopian/zipline",
+    "commit": "014f1fc339dc8b7671d29be2d85ce57d3daec343",
+    "path": "zipline/gens/sim_engine.pyx",
+    "url": "https://raw.githubusercontent.com/quantopian/zipline/014f1fc339dc8b7671d29be2d85ce57d3daec343/zipline/gens/sim_engine.pyx",
+    "local": "research/sources/zipline/zipline/gens/sim_engine.pyx",
+    "sha256": "6a57aad89c133d255fc3a483263e5baa2072cc1846c09934b3cbce358641ca94",
+    "bytes": 4188
+  },
+  {
+    "framework": "zipline",
+    "repo": "quantopian/zipline",
+    "commit": "014f1fc339dc8b7671d29be2d85ce57d3daec343",
+    "path": "zipline/finance/order.py",
+    "url": "https://raw.githubusercontent.com/quantopian/zipline/014f1fc339dc8b7671d29be2d85ce57d3daec343/zipline/finance/order.py",
+    "local": "research/sources/zipline/zipline/finance/order.py",
+    "sha256": "da8896a42d20b5d082c1b32c44c209ba482d8965947ff8e9ffb8de2e582b8f08",
+    "bytes": 8024
+  },
+  {
+    "framework": "zipline",
+    "repo": "quantopian/zipline",
+    "commit": "014f1fc339dc8b7671d29be2d85ce57d3daec343",
+    "path": "zipline/finance/ledger.py",
+    "url": "https://raw.githubusercontent.com/quantopian/zipline/014f1fc339dc8b7671d29be2d85ce57d3daec343/zipline/finance/ledger.py",
+    "local": "research/sources/zipline/zipline/finance/ledger.py",
+    "sha256": "9eb632496edd73b4555e46b16ba7b63588f430783c231cd86febc3842046f34c",
+    "bytes": 28766
+  },
+  {
+    "framework": "zipline",
+    "repo": "quantopian/zipline",
+    "commit": "014f1fc339dc8b7671d29be2d85ce57d3daec343",
+    "path": "zipline/algorithm.py",
+    "url": "https://raw.githubusercontent.com/quantopian/zipline/014f1fc339dc8b7671d29be2d85ce57d3daec343/zipline/algorithm.py",
+    "local": "research/sources/zipline/zipline/algorithm.py",
+    "sha256": "128d78ab622d6b14f0d7abd01344be673bb3814d6d4b1d1791c927ace2b3799c",
+    "bytes": 85906
+  },
+  {
+    "framework": "zipline",
+    "repo": "quantopian/zipline",
+    "commit": "014f1fc339dc8b7671d29be2d85ce57d3daec343",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/quantopian/zipline/014f1fc339dc8b7671d29be2d85ce57d3daec343/LICENSE",
+    "local": "research/sources/zipline/LICENSE",
+    "sha256": "e35c4578f7db4498e62e278978f6c42e0fce6f21f9993a060b08a33549cd3044",
+    "bytes": 11347
+  },
+  {
+    "framework": "backtrader",
+    "repo": "mementum/backtrader",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "path": "backtrader/strategy.py",
+    "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/backtrader/strategy.py",
+    "local": "research/sources/backtrader/backtrader/strategy.py",
+    "sha256": "8a56ebc1d7a597c41f20bd35d83b07fde90da60df50be46b3fc3bab85ab21d18",
+    "bytes": 61718
+  },
+  {
+    "framework": "backtrader",
+    "repo": "mementum/backtrader",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "path": "backtrader/order.py",
+    "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/backtrader/order.py",
+    "local": "research/sources/backtrader/backtrader/order.py",
+    "sha256": "b1a8827de9c40d25e932bc64455279a09b8b6389b681a019310dee68e64fff5d",
+    "bytes": 21937
+  },
+  {
+    "framework": "backtrader",
+    "repo": "mementum/backtrader",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "path": "backtrader/feed.py",
+    "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/backtrader/feed.py",
+    "local": "research/sources/backtrader/backtrader/feed.py",
+    "sha256": "f73518460264d3a2accc4f9aadd837a6eed089deb253cf9f4e1bac97a4ad0530",
+    "bytes": 26027
+  },
+  {
+    "framework": "backtrader",
+    "repo": "mementum/backtrader",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "path": "backtrader/trade.py",
+    "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/backtrader/trade.py",
+    "local": "research/sources/backtrader/backtrader/trade.py",
+    "sha256": "edfe42334ff643a6cfa598bc8f5a9165bae764b713d1ca71af6a2289859e6fd7",
+    "bytes": 11662
+  },
+  {
+    "framework": "backtrader",
+    "repo": "mementum/backtrader",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "path": "backtrader/lineiterator.py",
+    "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/backtrader/lineiterator.py",
+    "local": "research/sources/backtrader/backtrader/lineiterator.py",
+    "sha256": "4fd641866658e29b3ba091ab6f8e868b4d97cb496d94f7ed46f4e88b744840b5",
+    "bytes": 15838
+  },
+  {
+    "framework": "backtrader",
+    "repo": "mementum/backtrader",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/LICENSE",
+    "local": "research/sources/backtrader/LICENSE",
+    "sha256": "e1c0ad728983d8a57335e52cf1064f1affd1d454173d8cebd3ed8b4a72b48704",
+    "bytes": 35121
+  },
+  {
+    "framework": "qlib",
+    "repo": "microsoft/qlib",
+    "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+    "path": "qlib/backtest/exchange.py",
+    "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/qlib/backtest/exchange.py",
+    "local": "research/sources/qlib/qlib/backtest/exchange.py",
+    "sha256": "4affc13ab45af464cfb5b55663b80b2fc3dadb4769045d34d0fd218f760d7e08",
+    "bytes": 44235
+  },
+  {
+    "framework": "qlib",
+    "repo": "microsoft/qlib",
+    "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+    "path": "qlib/backtest/position.py",
+    "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/qlib/backtest/position.py",
+    "local": "research/sources/qlib/qlib/backtest/position.py",
+    "sha256": "b91246317db2eb6fefccc307441850ce919d93d3d69961120211b076d8485c26",
+    "bytes": 20033
+  },
+  {
+    "framework": "qlib",
+    "repo": "microsoft/qlib",
+    "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/LICENSE",
+    "local": "research/sources/qlib/LICENSE",
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+    "bytes": 1141
+  }
+]

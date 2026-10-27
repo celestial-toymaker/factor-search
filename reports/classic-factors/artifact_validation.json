@@ -1,0 +1,64 @@
+{
+  "runs_checked": [
+    "classic-size-af58780c97",
+    "classic-liquidity-af58780c97",
+    "classic-growth-af58780c97",
+    "classic-dividend-af58780c97",
+    "classic-value-af58780c97",
+    "classic-low-volatility-af58780c97",
+    "classic-quality-af58780c97",
+    "classic-investment-af58780c97",
+    "classic-momentum-af58780c97",
+    "classic-reversal-af58780c97"
+  ],
+  "documents_read": 11,
+  "local_links_checked": 136,
+  "equity_and_fees_reconciled": true,
+  "comparison_values_reconciled": true,
+  "images": [
+    {
+      "file": "coverage.png",
+      "dimensions": [
+        1500,
+        900
+      ],
+      "sha256": "2fe5d9697d28a5a188f659434451e1120290c3acba8ea59825cd5af593be7e02"
+    },
+    {
+      "file": "equity_drawdown.png",
+      "dimensions": [
+        1950,
+        1200
+      ],
+      "sha256": "4dca08cc0cfd3cfa93763434de64b49f2da36a3ce55cb85bc80bf6357d5b076e"
+    },
+    {
+      "file": "factor_correlation.png",
+      "dimensions": [
+        1260,
+        1120
+      ],
+      "sha256": "582fa714496414f58995cd75e0c43a806b3366e9abe18dba82ca856861cde76c"
+    },
+    {
+      "file": "group_curves.png",
+      "dimensions": [
+        2470,
+        1170
+      ],
+      "sha256": "8029d8930a51fba25ea0d2ac77df1fc4b287d579e1e90440a32909c02263f009"
+    },
+    {
+      "file": "rank_ic.png",
+      "dimensions": [
+        1950,
+        750
+      ],
+      "sha256": "089dcc1ff84411696a0bf6af04c777b974e1f36a1d8f8f4cd8da1c15f2d42b8d"
+    }
+  ],
+  "python_tests": 74,
+  "python_skipped": 0,
+  "source_requests": 536,
+  "source_errors": []
+}

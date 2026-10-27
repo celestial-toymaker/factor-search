@@ -1,0 +1,29 @@
+{
+  "study_fingerprint": "5a440907474e21fec54081d57d7e72e779bbc5de99c5dfc576edf48fe9b10ea7",
+  "source_fingerprint": "2c41ea046d9d134d03b5e02836e74cb006dd3e9e322973be86c2c12174d34ad6",
+  "report_generator_sha256": "0005713ef5c89245255eaa2eaaae681f2147b54e5ecd27b69a416414279b2bb1",
+  "files": {
+    "artifact_validation.json": "aa6bee274e1708cb406ecf1cd17a822ec05ff14a2a058d277fb2b91b4636d471",
+    "benchmark_equity.csv": "662d0a29ae7a224e06ddf899159e7e01695e7d3943b643d038bb7a327989823d",
+    "comparison.csv": "96dcfa5981866fd8fc3058c5795c7ce7549119156956d1cd359c0e2f1470aa2e",
+    "config.json": "d1ebafa94894da0cbb982fa9f2180bae7277af0ce2b607030138fe1614cd46ec",
+    "coverage.csv": "039f503c4107786b1493626de0d1611dd0e0f60641ce66ada67d3074fa33d6c4",
+    "coverage.png": "2fe5d9697d28a5a188f659434451e1120290c3acba8ea59825cd5af593be7e02",
+    "data_audit.json": "8c1c608405047b260dbc7f7414dedb7c94524a3c245c25994046ed10b9f612e3",
+    "equity.csv": "f936c3bbd05564a9901613a5d6470e23ecf8dfa73c40454d85214491470fafd6",
+    "equity_drawdown.png": "4dca08cc0cfd3cfa93763434de64b49f2da36a3ce55cb85bc80bf6357d5b076e",
+    "factor_correlation.csv": "9f1bb7e720050ae9831e7434e0ea04bdaba775398e51835c0ebc1b4116a6fc4c",
+    "factor_correlation.png": "582fa714496414f58995cd75e0c43a806b3366e9abe18dba82ca856861cde76c",
+    "group_curves.png": "8029d8930a51fba25ea0d2ac77df1fc4b287d579e1e90440a32909c02263f009",
+    "group_equity.parquet": "e104f750a9d285ca9338e625954f4e8099cd94499a7507c37b89b063ef9d347b",
+    "group_forward_returns.csv": "5c3307cdfb280e1ffe723edff4fdcf82d39b86ad59c95212da5e377f258c0f44",
+    "ic_summary.csv": "8758c150634ae84041a593d853f29c8de538b103c74d1351ddc3e9b3933cfa80",
+    "period_returns.csv": "432612f2a5c9c4fecc8b7514394b4fcdc5e2e565c710727bbdf44e45a3b09557",
+    "rank_ic.csv": "f1d40e7d717c5827dec0266a5282273234ad8b8796bb25fbcc5886eb03da64da",
+    "rank_ic.png": "089dcc1ff84411696a0bf6af04c777b974e1f36a1d8f8f4cd8da1c15f2d42b8d",
+    "report.md": "63ed452691f44ad00931e80bc348e4154f1b9916b1ea68d63ae7d1f7bb3aed21",
+    "sources.json": "4fbf925d81a772bd8f1f34674f9a069c50cf2b4815a8e6397bdbdbdc69c6786f",
+    "summary.json": "dc1e9b25a2b2f39e7eab3554c933a14f51818520786108210e250ad2f49c097a",
+    "validation.json": "931c76168b1b6912b35bc49775fa9f8a67b2e4b0adcbdfc0fa300aa347d75b4a"
+  }
+}

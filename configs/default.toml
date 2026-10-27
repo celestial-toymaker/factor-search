@@ -1,0 +1,31 @@
+name = "非 ST 全市场动量 · 10 亿"
+data_dir = "feathers"
+status_dir = "data/status"
+output_dir = "runs"
+start = "2025-01-02"
+end = "2026-09-30"
+warmup_start = "2024-01-01"
+initial_cash = "1000000000.00"
+device = "auto"
+block_days = 128
+accounting_mode = "total_return"
+# 退出专用：使用后续实际行情倒排，并校验新增买入能否在期末前退出。
+exit_mode = "latest_feasible"
+strategy = "momentum"
+rebalance_days = 5
+max_positions = 20
+target_exposure = "0.95"
+min_history = 60
+min_adv20 = "20000000"
+participation = "0.01"
+commission_rate = "0.0001"
+min_commission = "5.00"
+stamp_tax_rate = "0.0005"
+slippage_rate = "0.0005"
+auto_sync_status = true
+strict_status = true
+
+[parameters]
+window = 20
+allocation = "equal"
+

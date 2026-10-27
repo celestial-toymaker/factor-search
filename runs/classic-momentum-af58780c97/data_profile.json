@@ -1,0 +1,125 @@
+{
+  "dates": {
+    "first_loaded": "2023-01-03",
+    "last_loaded": "2026-09-30",
+    "start": "2025-01-02",
+    "end": "2026-09-30",
+    "trading_days": 424
+  },
+  "securities": 5451,
+  "stocks": 5450,
+  "shape": [
+    908,
+    5451
+  ],
+  "fields": {
+    "open": {
+      "missing": 308861,
+      "infinite": 0,
+      "zero": 0,
+      "negative": 0
+    },
+    "high": {
+      "missing": 308861,
+      "infinite": 0,
+      "zero": 0,
+      "negative": 0
+    },
+    "low": {
+      "missing": 308861,
+      "infinite": 0,
+      "zero": 0,
+      "negative": 0
+    },
+    "close": {
+      "missing": 308861,
+      "infinite": 0,
+      "zero": 0,
+      "negative": 0
+    },
+    "amt": {
+      "missing": 308861,
+      "infinite": 0,
+      "zero": 10662,
+      "negative": 0
+    },
+    "num_trades": {
+      "missing": 308842,
+      "infinite": 0,
+      "zero": 10697,
+      "negative": 0
+    },
+    "cumadj": {
+      "missing": 308861,
+      "infinite": 0,
+      "zero": 0,
+      "negative": 0
+    }
+  },
+  "diagnostics": {
+    "valid_ohlc": 4640647,
+    "zero_amount": 10662,
+    "invalid_ohlc": 0,
+    "factor_change": 21842,
+    "small_factor_change": 5092
+  },
+  "fingerprint": "343d1e94eec2c4e7619fec08695705e022a9a590a8871ef4007fdd0561fd2f49",
+  "source_files": [
+    {
+      "metric": "open",
+      "file": "feathers/open.feather",
+      "size_bytes": 32297546,
+      "sha256": "a75e7aa3dac9e101f2c3cfff85728b26a29ea50ccc6ec46c315a36e8476d5f92",
+      "loaded_rows": 908,
+      "loaded_columns": 5451
+    },
+    {
+      "metric": "high",
+      "file": "feathers/high.feather",
+      "size_bytes": 32377890,
+      "sha256": "88313810bedab563416c94e90a60cc0cf089fd62923be1bcad0e2680558a5cf7",
+      "loaded_rows": 908,
+      "loaded_columns": 5451
+    },
+    {
+      "metric": "low",
+      "file": "feathers/low.feather",
+      "size_bytes": 32156250,
+      "sha256": "e5c7da4b6fcdae3cc50fe2f6d30faf36b83c68c25d6db5faba079716748fa8ea",
+      "loaded_rows": 908,
+      "loaded_columns": 5451
+    },
+    {
+      "metric": "close",
+      "file": "feathers/close.feather",
+      "size_bytes": 32431858,
+      "sha256": "621b7b381f96c7d162317ac67c8831aebfc5e78f4b1ecd59159fc93e0ea109e7",
+      "loaded_rows": 908,
+      "loaded_columns": 5451
+    },
+    {
+      "metric": "amt",
+      "file": "feathers/amt.feather",
+      "size_bytes": 52398330,
+      "sha256": "cd2a2f43e273963f93230163813aafaddb52307d1805ee1a583aeab931e418c2",
+      "loaded_rows": 908,
+      "loaded_columns": 5451
+    },
+    {
+      "metric": "num_trades",
+      "file": "feathers/num_trades.feather",
+      "size_bytes": 37495202,
+      "sha256": "37a89a5b9af8a00deafc089be614f7784167ae283277337f31552c809f28a142",
+      "loaded_rows": 908,
+      "loaded_columns": 5451
+    },
+    {
+      "metric": "cumadj",
+      "file": "feathers/cumadj.feather",
+      "size_bytes": 5877058,
+      "sha256": "5ebc13623115743c39b2cb56dbe365f10c4c72d6fed6ac4041d9377895439173",
+      "loaded_rows": 908,
+      "loaded_columns": 5451
+    }
+  ]
+}

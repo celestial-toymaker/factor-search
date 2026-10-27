@@ -1,0 +1,286 @@
+{
+  "completed": 10,
+  "total": 10,
+  "status_coverage": {
+    "required_stock_days": 2155920,
+    "covered_stock_days": 2155920,
+    "unknown_stock_days": 0,
+    "unknown_examples": [],
+    "st_stock_days": 64273,
+    "source_fingerprint": "836ff2bb30f416ea1d05277ced05819dd565629f3d6f3ea0ca223c84a97405a4",
+    "availability_basis": "逐日风险状态按当日开盘前生效推定；有明确时间的覆盖事件按其可获知时间执行"
+  },
+  "device": {
+    "device": "mps",
+    "device_name": "Apple M3 Pro",
+    "torch": "2.5.1",
+    "cuda": null,
+    "dtype": "float32",
+    "block_days": 128,
+    "windows": [
+      5,
+      10,
+      14,
+      20,
+      60
+    ],
+    "cache_key": "0317233ed358475456eaaab8f2db2a89e5e50678d3805b741b1a6974609aa2d1",
+    "cache_hit": true,
+    "seconds": 2.29,
+    "classic_factors": {
+      "fingerprint": "c9fcca54ebea52cada61d719a6b4e328f5bbd4fcb96892a445afac09db4b436a",
+      "source_fingerprint": "2c41ea046d9d134d03b5e02836e74cb006dd3e9e322973be86c2c12174d34ad6",
+      "cache": "data/classic_factors/features/c9fcca54ebea52cada61d719a6b4e328f5bbd4fcb96892a445afac09db4b436a.npz",
+      "cache_sha256": "6124557eef2aad1d85d2b4632a66ae0da8527a6e9ee1462f861a7560f9711f06",
+      "device": "mps"
+    }
+  },
+  "runs": [
+    {
+      "run_id": "classic-value-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 96,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-size-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 98,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-momentum-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 51,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-reversal-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 48,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-low-volatility-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 96,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-quality-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 73,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-growth-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 89,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-dividend-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 95,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-liquidity-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 90,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    },
+    {
+      "run_id": "classic-investment-af58780c97",
+      "trading_days": 424,
+      "positions_within_limit": true,
+      "target_weights_within_limit": true,
+      "capacity_within_limit": true,
+      "daily_information_exit": true,
+      "ending_positions": 97,
+      "replay_tables_identical": [
+        "orders",
+        "trades",
+        "journal",
+        "equity",
+        "positions",
+        "fees",
+        "exits"
+      ]
+    }
+  ],
+  "source_requests": 536,
+  "source_errors": [],
+  "artifact_checks": {
+    "runs_checked": [
+      "classic-size-af58780c97",
+      "classic-liquidity-af58780c97",
+      "classic-growth-af58780c97",
+      "classic-dividend-af58780c97",
+      "classic-value-af58780c97",
+      "classic-low-volatility-af58780c97",
+      "classic-quality-af58780c97",
+      "classic-investment-af58780c97",
+      "classic-momentum-af58780c97",
+      "classic-reversal-af58780c97"
+    ],
+    "documents_read": 11,
+    "local_links_checked": 136,
+    "equity_and_fees_reconciled": true,
+    "comparison_values_reconciled": true,
+    "images": [
+      {
+        "file": "coverage.png",
+        "dimensions": [
+          1500,
+          900
+        ],
+        "sha256": "2fe5d9697d28a5a188f659434451e1120290c3acba8ea59825cd5af593be7e02"
+      },
+      {
+        "file": "equity_drawdown.png",
+        "dimensions": [
+          1950,
+          1200
+        ],
+        "sha256": "4dca08cc0cfd3cfa93763434de64b49f2da36a3ce55cb85bc80bf6357d5b076e"
+      },
+      {
+        "file": "factor_correlation.png",
+        "dimensions": [
+          1260,
+          1120
+        ],
+        "sha256": "582fa714496414f58995cd75e0c43a806b3366e9abe18dba82ca856861cde76c"
+      },
+      {
+        "file": "group_curves.png",
+        "dimensions": [
+          2470,
+          1170
+        ],
+        "sha256": "8029d8930a51fba25ea0d2ac77df1fc4b287d579e1e90440a32909c02263f009"
+      },
+      {
+        "file": "rank_ic.png",
+        "dimensions": [
+          1950,
+          750
+        ],
+        "sha256": "089dcc1ff84411696a0bf6af04c777b974e1f36a1d8f8f4cd8da1c15f2d42b8d"
+      }
+    ],
+    "python_tests": 74,
+    "python_skipped": 0,
+    "source_requests": 536,
+    "source_errors": []
+  }
+}

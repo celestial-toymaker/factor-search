@@ -1,0 +1,9 @@
+{
+  "required_stock_days": 2155920,
+  "covered_stock_days": 2155920,
+  "unknown_stock_days": 0,
+  "unknown_examples": [],
+  "st_stock_days": 64273,
+  "source_fingerprint": "836ff2bb30f416ea1d05277ced05819dd565629f3d6f3ea0ca223c84a97405a4",
+  "availability_basis": "逐日风险状态按当日开盘前生效推定；有明确时间的覆盖事件按其可获知时间执行"
+}

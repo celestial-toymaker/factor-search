@@ -1,0 +1,31 @@
+name = "十大经典因子探索性评估"
+data_dir = "feathers"
+status_dir = "data/status"
+output_dir = "runs"
+start = "2025-01-02"
+end = "2026-09-30"
+warmup_start = "2023-01-01"
+initial_cash = "1000000000.00"
+device = "mps"
+block_days = 128
+accounting_mode = "total_return"
+exit_mode = "strict_end"
+strategy = "classic_value"
+rebalance_days = 5
+max_positions = 100
+target_exposure = "0.95"
+min_history = 60
+min_adv20 = "20000000"
+participation = "0.01"
+commission_rate = "0.0001"
+min_commission = "5.00"
+stamp_tax_rate = "0.0005"
+slippage_rate = "0.0005"
+auto_sync_status = false
+strict_status = true
+
+[parameters]
+allocation = "equal"
+data_standard = "conservative_exploratory"
+financial_start = "2021-01-01"
+source_workers = 4
